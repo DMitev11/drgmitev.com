@@ -18,7 +18,7 @@ const PopSectionData =  {
     },
     audi: {
         banner: "../assets/img/audi_background.avif",
-        title: 'Audi Bulgaria, Christmas NFT Collection',
+        title: 'Audi Bulgaria NFT',
         role: "Full Stack Developer",
         link: {text: "OpenSea", link: "https://opensea.io/AudiBulgaria"},
         description: "A Christmas 2022 NFT collection, utilizing META transactions allowing users to mint transaction-free",
