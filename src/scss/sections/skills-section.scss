@@ -1,0 +1,15 @@
+section#skills.resume-section { 
+    .resume-section-content{
+        .list-inline-item{
+            height: 45px;
+            .languages-item {
+                display:flex;
+                position:relative;
+                top:10px;
+                // aspect-ratio: $skills-logo-aspect-ratio;
+                width:fit-content;
+                height: $skills-logo-height;
+            }
+        }
+    }
+}
