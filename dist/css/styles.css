@@ -10994,6 +10994,12 @@ section#projects.resume-section span.projects-image-wrapper .projects-image-inne
   max-height: 120px;
   transition: transform 0.5s;
   transform: scale(1);
+  margin: auto;
+}
+@media screen and (max-width: 1270px) {
+  section#projects.resume-section span.projects-image-wrapper .projects-image-inner {
+    top: unset !important;
+  }
 }
 section#projects.resume-section span.projects-image-wrapper:hover {
   border: 1.5px rgba(128, 128, 128, 0.2) solid;

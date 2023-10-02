@@ -1,25 +1,32 @@
-section#projects.resume-section{     
-    span.projects-image-wrapper { 
-        width:fit-content;
-        box-shadow: 0px 0px 2px 0px rgba(128,128,128, 0.2); 
-        border: 0px rgba(128,128,128, 0.2) solid; 
+section#projects.resume-section {
+    span.projects-image-wrapper {
+        width: fit-content;
+        box-shadow: 0px 0px 2px 0px rgba(128, 128, 128, 0.2);
+        border: 0px rgba(128, 128, 128, 0.2) solid;
         border-radius: 50px;
-        &::marker{
-            visibility: hidden; 
+        &::marker {
+            visibility: hidden;
         }
-        // overflow: hidden; 
-        transition: box-shadow 0.9s ease, border 0.2s ease;
+        // overflow: hidden;
+        transition:
+            box-shadow 0.9s ease,
+            border 0.2s ease;
         .projects-image-inner {
             max-width: 250px;
             max-height: 120px;
             transition: transform 0.5s;
             transform: scale(1);
+            margin: auto;
+            @media screen and (max-width: 1270px) {
+                // width: unset !important;
+                top: unset !important;
+            }
         }
-        
-        &:hover { 
-            border: 1.5px rgba(128,128,128, 0.2) solid; 
-            box-shadow: 0px 0px 2px 4px rgba(128,128,128, 0.2); 
-        .projects-image-inner {
+
+        &:hover {
+            border: 1.5px rgba(128, 128, 128, 0.2) solid;
+            box-shadow: 0px 0px 2px 4px rgba(128, 128, 128, 0.2);
+            .projects-image-inner {
                 transform: scale(1.3);
             }
         }
