@@ -1,7 +1,7 @@
 @charset "UTF-8";
 /*!
 * Start Bootstrap - Resume v7.0.6 (https://startbootstrap.com/theme/resume)
-* Copyright 2013-2023 Start Bootstrap
+* Copyright 2013-2024 Start Bootstrap
 * Licensed under MIT (https://github.com/StartBootstrap/startbootstrap-resume/blob/master/LICENSE)
 */
 /*!
@@ -10966,15 +10966,67 @@ section.resume-section .resume-section-content {
     padding-bottom: 5rem;
   }
 }
+section#skills.resume-section .resume-section-content ul.list-inline {
+  -webkit-display: flex;
+  -webkit-flex-wrap: wrap;
+  -webkit-gap: 20px;
+  -webkit-margin: 10px 0 10px 0;
+  -ms-display: flex;
+  -ms-flex-wrap: wrap;
+  -ms-gap: 20px;
+  -ms-margin: 10px 0 10px 0;
+  -moz-display: flex;
+  -moz-flex-wrap: wrap;
+  -moz-gap: 20px;
+  -moz-margin: 10px 0 10px 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  margin: 10px 0 10px 0;
+}
 section#skills.resume-section .resume-section-content .list-inline-item {
+  -webkit-height: 45px;
+  -webkit-display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-width: fit-content;
+  -ms-height: 45px;
+  -ms-display: inline-flex;
+  -ms-align-items: center;
+  -ms-width: fit-content;
+  -moz-height: 45px;
+  -moz-display: inline-flex;
+  -moz-align-items: center;
+  -moz-width: -moz-fit-content;
   height: 45px;
+  display: inline-flex;
+  align-items: center;
+  width: fit-content;
 }
 section#skills.resume-section .resume-section-content .list-inline-item .languages-item {
-  display: flex;
-  position: relative;
-  top: 10px;
-  width: -moz-fit-content;
-  width: fit-content;
+  -webkit-display: flex;
+  -webkit-position: relative;
+  -webkit-align-items: center;
+  -webkit-max-width: 105px;
+  -webkit-max-height: 45px;
+  -webkit-width: fit-content;
+  -webkit-height: inherit;
+  -moz-display: flex;
+  -moz-position: relative;
+  -moz-align-items: center;
+  -moz-max-width: 105px;
+  -moz-max-height: 45px;
+  -moz-width: -moz-fit-content;
+  -moz-height: inherit;
+  -ms-display: inline-flex;
+  -ms-align-items: center;
+  -ms-max-width: 105px;
+  -ms-max-height: 45px;
+  -ms-width: fit-content;
+  -ms-height: inherit;
+  display: inline-flex; /* This will be overridden by the prefixed properties */
+  align-items: center;
+  max-width: 105px;
+  max-height: 45px;
   height: inherit;
 }
 
